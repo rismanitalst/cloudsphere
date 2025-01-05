@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok Cloud Computing</title>
+    <style>
+        /* Reset some basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set background color and font */
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            overflow-x: hidden;
+            height: 100%; /* Ensures that the footer is always at the bottom */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensures that the footer is always at the bottom even with little content */
+        }
+
+        /* Header Section */
+        header {
+            background-color: #87cefa;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 3px solid #00bfff;
+        }
+
+        .cloud-header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        .cloud-header p {
+            font-size: 1rem;
+            color: #fff;
+            font-style: italic;
+        }
+
+        .welcome-message {
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #4682b4;
+            padding: 10px;
+            margin: 15px 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Section for Team */
+        .team {
+            padding: 20px;
+            text-align: center;
+            flex-grow: 1; /* Ensures this section takes up remaining space */
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #4682b4;
+            margin-bottom: 10px;
+        }
+
+        .members {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .member {
+            background-color: #fff;
+            border: 2px solid #00bfff;
+            border-radius: 12px;
+            padding: 20px;
+            width: 180px;
+            height: 180px; /* Mengubah kotak menjadi persegi */
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            transition: transform 0.3s ease;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Icon styling */
+        .member i {
+            font-size: 50px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        /* Hover effects */
+        .member:hover {
+            transform: translateY(-5px);
+        }
+
+        .member:hover i {
+            transform: scale(1.1);
+        }
+
+        /* Name styling */
+        .member-info h3 {
+            font-size: 1rem;
+            color: #4682b4;
+            margin-bottom: 5px; /* Adds a little space between the name and the description */
+        }
+
+        /* Description styling */
+        .member-info p {
+            font-size: 0.9rem;
+            color: #333;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #87cefa;
+            text-align: center;
+            padding: 10px;
+            font-size: 1rem;
+            color: #fff;
+            width: 100%;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Welcome Message -->
+        <div class="welcome-message">
+            Welcome to the CloudSphere! 🌥️
+        </div>
+
+        <!-- Main Cloud Header -->
+        <div class="cloud-header">
+            <h1>🌥️ Kelompok Cloud Computing 🌥️</h1>
+            <p>Menjelajah Awan, Mencapai Langit!</p>
+        </div>
+    </header>
+    
+    <section class="team">
+        <br>
+        <h2>Anggota Kelompok</h2>
+        <br>
+        <div class="members">
+            <div class="member">
+                <!-- Icon as Avatar -->
+                <i>🌙</i>
+                <div class="member-info">
+                    <h3>Asep Robiyana M</h3>
+                    <p>Penjelajah cloud yang hebat!</p>
+                </div>
+            </div>
+            <div class="member">
+                <!-- Icon as Avatar -->
+                <i>🌟</i>
+                <div class="member-info">
+                    <h3>Helen Oktaviani</h3>
+                    <p>Anggota yang sangat inovatif!</p>
+                </div>
+            </div>
+            <div class="member">
+                <!-- Icon as Avatar -->
+                <i>☁️</i>
+                <div class="member-info">
+                    <h3>M. Ulin Nuha</h3>
+                    <p>Ahli dalam merangkai kode!</p>
+                </div>
+            </div>
+            <div class="member">
+                <!-- Icon as Avatar -->
+                <i>🌞</i>
+                <div class="member-info">
+                    <h3>Rismanita Lestari</h3>
+                    <p>Pemecah masalah yang luar biasa!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Kelompok Cloud Computing</p>
+    </footer>
+</body>
+</html>
